@@ -7,7 +7,7 @@ if 'tasks' not in st.session_state:
 now = datetime.now()
 
 def progressPercent(time):
-    hour = int(time.strftime('%H')) + 1
+    hour = int(time.strftime('%H'))
     minute = int(time.strftime('%M'))
 ##    hour, minute = 15, 30
     if hour < 9:
